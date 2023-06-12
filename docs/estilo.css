@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    margin-top: 10px;
+    background-color: #ececec;
+}
+
+#principal {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.desc1 {
+    font-family: Arial;
+}
+
+
+
+    #menu ul {
+        display: flex;
+        list-style: none;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    #menu li {
+        flex: 1;
+        text-align: center;
+    }
+    
+    #menu li img {
+        display: block;
+        margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#imagem-destaque {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    margin-left: 20%;
+}
+
+#sobremim {
+    display: flex;
+    margin-top: -3%;
+}
+
+.fundo {
+    background-color: aliceblue;
+    margin-right: 56%;
+    margin-top: 38px;
+    
+}
+
+.biografia{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 170px;
+    
+}
+
+
+
+/*------------------*/
+
+#rodape {
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 7%;
+}
+
+#divrodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+    
+.logo-container p {
+    margin-left: 10px;
+}
+
+.imgrodape {
+    width: 100px;
+    height: auto;
+}
+
+.h2rodape {
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 1%;
+    text-align: center;
+
+}
+
+.subh21 {
+    font-size: 30px;
+    color: black;
+}
+
+.subh22 {
+    font-size: 24px;
+    color: gray;
+}
+
+.divrodape2 {
+    display: flex;
+    align-items: center;
+}
+
+.testerodape {
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 25px;
+}
+.comarodape {
+    width: 125px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.h1conteudo {
+    font-weight: bold;
+}
+
+.linkclick {
+    background-color: aliceblue;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+
+/*ESTILO CSS - CURRICULUM */
+
+#linha-horizontal {
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.subt {
+    margin-top: 3px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.subt2 {
+    margin-left: 55px;
+    font-size: 20px;
+}
+
+.btn {
+    display: block;
+    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 150%;
+    text-align: center;
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.exibicao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    margin-left: -250px;
+
+}
+
+.content {
+    grid-column-start: 2;
+}
+
+#conteudo {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial;
+    line-height: 30px;
+}
+
+/* ESTILO CSS - TRABALHOS... obs.: no meu prototipo estavam slides, mas como eu nao sei fazer isso e nao foi mostrado em aula, preferi nao colocar */
+
+#apresentacao {
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.botoes2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -250px;
+}
+
+.btn2 {
+    display: block;
+    margin-bottom: -10px;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 100%;
+    text-align: center;
+    width: 300px;
+    margin-left: 300px;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+#conteudo2 {
+  
+    margin-right: 100px;
+    margin-left: -180px;
+    margin-bottom: -200px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial;
+    line-height: 30px;
+   /* background-color: red; */
+}
+
+.trab1 {
+    width: 30%;
+    margin-left: 3%;
+    position: absolute;
+    top: 16%;
+    left: 62%;
+    float: right;
+}
+
+.trab2 {
+    width: 30%;
+    float: right;
+    position: absolute;
+    top: 49%;
+    left: 65%;
+}
+
+.trab3 {
+    width: 40%;
+    margin-right: 3%;
+}
+
+.ttkp {
+    margin-right: 2%;
+    width: 35%;
+}
+
+.ttk1 {
+    width: 35%;
+    margin-right: 2%;
+}
+
+#rodape2 {
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 17%;
+}
+
+/* CSS TRAJETORIA */
+
+#imagem-trajetoria {
+    width: 55%;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.trajetoriah1 {
+    margin-right: 10%;
+    margin-top: 4%;
+    margin-left: -55%;
+    font-size: 25px;
+    background-color: aliceblue;
+    margin-right: 112%;
+}
+
+#sobremim2{
+    display: flex;
+}
+
+.trajetoriadesc1{
+    margin-left: -55%;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+/* CSS CONTATO */
+
+#contatoconteudo {
+    display: flex;
+}
+
+#imagemcontato {
+    width: 100%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.divcont1 {
+    margin-top: 3%;
+    width: 100%;
+    margin-left: 10%;
+}
+
+.divcont2{
+    margin-right: 30%;
+}
+
+#mensagemform{
+    margin-top: 55%;
+    align-content: center;
+    margin-left: -345%;
+}
+
+#mensagem {
+    height: 100px;
+}
+
+.entrecontato {
+    margin-top: 5%;
+    margin-left: 1%;
+    font-family: arial;
+    font-size: 15px;
+}
